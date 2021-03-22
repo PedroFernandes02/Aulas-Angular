@@ -1,2 +1,9 @@
 <input type ="text" (input)="changeName($event)" value={{name}} [style.background] = name>
 <p>Ola, {{name}}</p>
+
+<h2>Diretive NG for</h2>
+<div *ngFor="let animal of arrayAnimais">
+<h4>{{animal}}</h4>
+</div>
+
+

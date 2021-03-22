@@ -1,0 +1,6 @@
+<input type="text" [style.background] = "cor" (mouseover)='changecolor("red")' (focus)='changecolor("pink")'
+(blur)='changecolor("grey")' (input)='changecolor("green")' (copy)='changecolor("yellow")' #refeInput>
+
+<hr>
+<button (click)="size(refeInput)">Size</button>
+

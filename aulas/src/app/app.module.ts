@@ -9,6 +9,9 @@ import { ReadMeGeneratorComponent } from './read-me-generator/read-me-generator.
 import { HomeComponent } from './home/home.component';
 import { ExperimentsComponent } from './experiments/experiments.component';
 import { FormsModule } from '@angular/forms';
+import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
+import { Exp2Component } from './exp2/exp2.component';
+import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { FormsModule } from '@angular/forms';
     NavBarComponent,
     ReadMeGeneratorComponent,
     HomeComponent,
-    ExperimentsComponent
+    ExperimentsComponent,
+    EvAndRefComponent,
+    Exp2Component,
+    FichaAnimalComponent
   ],
   imports: [
     BrowserModule,

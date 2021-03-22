@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-experiments',
@@ -16,6 +16,12 @@ export class ExperimentsComponent implements OnInit {
 
   changeName(event){
     this.name = event.target.value;
+  }
+
+  arrayAnimais: Array<string> = ["cao", "gato", "galinha", "coelho"];
+
+  analisarReferencia(referencia){
+    console.log(referencia.value)
   }
 
 
