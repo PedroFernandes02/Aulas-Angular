@@ -15,20 +15,26 @@ export class CalculadoraComponent implements OnInit {
    num1 : number;
    num2 : number;
    resultado: number;
-   sinal: string = "+";
+   sinal: string = "";
 
    soma(){
 
   switch (this.sinal) {
     case "+":
       this.resultado = Number(this.num1) + Number(this.num2);
-      break;
-      case "-":
+    break;
+    case "-":
       this.resultado = Number(this.num1) - Number(this.num2);
-      break;
+    break;
+    case "/":
+      this.resultado = Number(this.num1) / Number(this.num2);
+    break;
+    case "*":
+      this.resultado = Number(this.num1) * Number(this.num2);
+    break;
 
     default:
-      this.resultado = Number(this.num1) + Number(this.num2);
+      this.resultado;
       break;
   }
    }
