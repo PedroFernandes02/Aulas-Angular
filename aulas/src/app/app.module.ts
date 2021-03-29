@@ -12,6 +12,11 @@ import { FormsModule } from '@angular/forms';
 import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
 import { Exp2Component } from './exp2/exp2.component';
 import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
+import { FilhoInputComponent } from './exp2/filho-input/filho-input.component';
+import { PaiInputComponent } from './exp2/pai-input/pai-input.component';
+import { FilhoOutputComponent } from './exp2/filho-output/filho-output.component';
+import { PaiOutputComponent } from './exp2/pai-output/pai-output.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,12 @@ import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
     ExperimentsComponent,
     EvAndRefComponent,
     Exp2Component,
-    FichaAnimalComponent
+    FichaAnimalComponent,
+    FilhoInputComponent,
+    PaiInputComponent,
+    FilhoOutputComponent,
+    PaiOutputComponent,
+    CookiesComponent,
   ],
   imports: [
     BrowserModule,

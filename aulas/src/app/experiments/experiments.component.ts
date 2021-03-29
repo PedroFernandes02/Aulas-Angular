@@ -24,5 +24,8 @@ export class ExperimentsComponent implements OnInit {
     console.log(referencia.value)
   }
 
+  avaliaNome(){
+    return this.name == 'Miguel' ? true : false;
+  }
 
 }

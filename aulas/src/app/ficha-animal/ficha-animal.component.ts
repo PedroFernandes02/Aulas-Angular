@@ -12,4 +12,6 @@ export class FichaAnimalComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  name : string;
+
 }

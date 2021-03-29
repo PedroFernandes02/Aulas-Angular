@@ -1,0 +1,17 @@
+.contaner{
+  position: fixed;
+  bottom: 0;
+  height: 25vh;
+  background-color: cornflowerblue;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  animation-name: subir;
+  animation-duration: 2s;
+}
+
+@keyframes subir{
+  from {bottom: -25vh;}
+  to {bottom: 0vh;}
+}

@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "C:/Users/pedro/OneDrive/Ambiente de Trabalho/PWII/Aulas-Angular/aulas/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []

@@ -2,8 +2,16 @@
 <p>Ola, {{name}}</p>
 
 <h2>Diretive NG for</h2>
-<div *ngFor="let animal of arrayAnimais">
-<h4>{{animal}}</h4>
+<div *ngFor="let animal of arrayAnimais; let i = index;">
+<h4 [ngStyle] = "{'color': i%2==0 ? 'green' : 'red' }">{{animal}}</h4>
 </div>
+
+<button class="btn" [ngClass]="{'btn-warning': avaliaNome() }">Next</button>
+<!--<button class="btn" [ngClass]="{'btn-warning': name == 'Miguel' ? true : false }">Next</button>-->
+
+
+<!--<h1 *ngIf= "name == 'Pedro'"> És tu!!!!!!!!!!!!!!</h1>-->
+
+
 
 
